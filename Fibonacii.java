@@ -1,7 +1,7 @@
 class Fibonacii
 {
     public static void main(String a[]) {
-       int n=1000;   
+       int n=20;   
       int fib1 = 0, fib2 = 1,fib3; 
        for(int i=2;i<=n;i++)
        {
@@ -12,7 +12,7 @@ class Fibonacii
                count++;
           }
         if (count==2)
-            System.out.println(i); 
+            System.out.println("Prime Number:" +i); 
 
         if (fib1 <= n) {
                 System.out.println("Fibonacci: " + fib1);
